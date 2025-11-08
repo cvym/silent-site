@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 
 const ThankYouPage = () => {
   const sessionId = useMemo(() => {
@@ -6,6 +6,13 @@ const ThankYouPage = () => {
       return null;
     }
     return new URLSearchParams(window.location.search).get("session_id");
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+    localStorage.setItem("s1lents_has_purchase", "true");
   }, []);
 
   return (
@@ -20,7 +27,7 @@ const ThankYouPage = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
             className="rounded-full bg-white px-6 py-3 text-sm font-semibold uppercase tracking-wide text-brand transition hover:bg-brand-light hover:text-brand-dark"
-            href="https://discord.gg/your-server"
+            href="https://discord.gg/AfQj8wJApb"
             target="_blank"
             rel="noreferrer"
           >

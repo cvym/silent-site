@@ -31,7 +31,7 @@ const CTASection = ({ onStartPurchase }: CTASectionProps) => {
               Purchase now
             </button>
             <a
-              href="https://discord.gg/your-server"
+              href="https://discord.gg/AfQj8wJApb"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-white/30 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-white/80 hover:bg-white/10"

@@ -60,7 +60,7 @@ const HeroSection = ({ onStartPurchase }: HeroSectionProps) => {
               Start your project
             </button>
             <a
-              href="https://discord.gg/your-server"
+              href="https://discord.gg/AfQj8wJApb"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white/80 hover:bg-white/10"

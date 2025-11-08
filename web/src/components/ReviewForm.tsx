@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import api from "../lib/api";
 
@@ -11,8 +11,25 @@ const ReviewForm = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [canReview, setCanReview] = useState<boolean>(() => {
+    if (typeof window === "undefined") {
+      return false;
+    }
+    return localStorage.getItem("s1lents_has_purchase") === "true";
+  });
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+    setCanReview(localStorage.getItem("s1lents_has_purchase") === "true");
+  }, []);
 
   const handleSubmit = async () => {
+    if (!canReview) {
+      setError("Please complete an order before leaving a review.");
+      return;
+    }
     if (!message || !name) {
       setError("Please provide your name and a short comment.");
       return;
@@ -50,6 +67,11 @@ const ReviewForm = () => {
       <p className="mt-2 text-xs text-white/60">
         Your review appears on the site and a star rating is sent to the private Discord channel.
       </p>
+      {!canReview && (
+        <p className="mt-3 rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-xs text-white/60">
+          Reviews unlock after your first purchase. Complete a checkout, then share your feedback here.
+        </p>
+      )}
 
       <div className="mt-4">
         <label className="text-xs font-semibold uppercase tracking-wide text-white/50">
@@ -60,10 +82,11 @@ const ReviewForm = () => {
             <button
               key={star}
               type="button"
-              onClick={() => setRating(star)}
+              onClick={() => canReview && setRating(star)}
               className={`h-9 w-9 rounded-full text-lg transition ${
                 rating >= star ? "bg-brand text-white" : "bg-white/10 text-white/50"
               }`}
+              disabled={!canReview}
             >
               ★
             </button>
@@ -111,10 +134,10 @@ const ReviewForm = () => {
         <button
           type="button"
           onClick={handleSubmit}
-          disabled={loading}
+          disabled={loading || !canReview}
           className="rounded-full bg-brand px-5 py-2 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-brand-accent disabled:cursor-not-allowed disabled:opacity-70"
         >
-          {loading ? "Sending..." : "Submit review"}
+          {loading ? "Sending..." : canReview ? "Submit review" : "Purchase required"}
         </button>
         <p className="text-xs text-white/40">Moderated via Discord tickets.</p>
       </div>
