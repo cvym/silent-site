@@ -1,0 +1,99 @@
+🇬🇧
+
+**Welcome to __S1lents__! I create custom Discord bots that are stable, reliable, and tailored to your needs.**
+
+***__How it works__ :***
+
+**> You tell me what type of bot you want and which features you need.  
+> I create the bot for you, ready to use.  
+> Pricing varies based on features and complexity — the more advanced the bot, the higher the price.**
+
+***__Available bot types__ :***
+
+**- Moderation — anti-raid, filters, logs, automatic warn/mute/ban  
+- Economy / Shop — virtual currency, inventory, custom shop  
+- Tickets / Support — private tickets, staff routing  
+- Music — queue, voice commands, playlists, Lavalink  
+- AI / Assistant — smart chat, auto replies, AI moderation  
+- Analytics / Stats — dashboards, server activity, exports  
+- Mini-games / Leveling — XP, leaderboards, rewards  
+- Utilities — reminders, polls, task scheduling, webhooks  
+- API Integrations — Trello, GitHub, Notion, Google, payments, etc.  
+- Custom — any feature you need**
+
+***__Delivery__ :***
+
+**You receive the full source code of the bot.  
+Ready to run on your server immediately.**
+
+***__Ordering process__ :***
+
+**> Open a ticket or contact me directly.  
+> Specify the bot type and requested features.  
+> I send you a price estimate based on the selected features.  
+> I create your bot and deliver it.**
+
+**Do you want a custom Discord bot? Open a ticket and come see me if needed.**
+
+***__Hosting services__ :***
+
+**I can keep your bot online for you 24/7. Pick the hosting level that gives you the best value:**
+
+**- Managed Cloud — fully managed environment with automatic restarts and uptime monitoring  
+- Performance Tier — dedicated resources for high-traffic servers and premium support  
+- Custom Deployment — tailored setup on your infrastructure with deployment automation**
+
+**Every hosting plan includes monitoring, updates, and quick incident response.**
+
+**Pricing note: hosting adds a small premium to the project quote so your bot stays covered with reliable uptime.**
+
+
+🇫🇷
+
+**Bienvenue chez __S1lents__ ! Je crée des bots Discord personnalisés, stables, fiables et adaptés à vos besoins.**
+
+***__Comment ça marche__ :***
+
+**> Tu me dis quel type de bot tu veux et quelles fonctionnalités tu souhaites avoir.  
+> Je crée le bot pour toi, prêt à être utilisé.  
+> Le prix varie selon les fonctionnalités et la complexité — plus le bot est avancé, plus le prix augmente.**
+
+***__Types de bots disponibles__ :***
+
+**- Modération — anti-raid, filtres, logs, warn/mute/ban automatiques  
+- Économie / boutique — monnaie virtuelle, inventaire, boutique personnalisée  
+- Tickets / support — tickets privés, routage vers staff  
+- Musique — queue, commandes vocales, playlists, Lavalink  
+- IA / assistant — chat intelligent, réponses automatiques, modération assistée  
+- Analytics / stats — dashboards, activité serveur, exportations  
+- Mini-jeux / leveling — XP, classements, récompenses  
+- Utilitaires — rappels, sondages, planification de tâches, webhooks  
+- Intégrations API — Trello, GitHub, Notion, Google, paiements, etc.  
+- Sur mesure — toutes les fonctionnalités dont tu as besoin**
+
+***__Livraison__ :***
+
+**Tu reçois le code source complet du bot.  
+Prêt à être utilisé sur ton serveur immédiatement.**
+
+***__Processus de commande__ :***
+
+**> Ouvre un ticket ou contacte-moi directement.  
+> Indique le type de bot et les fonctionnalités souhaitées.  
+> Je t’envoie un devis basé sur les fonctionnalités choisies.  
+> Je crée ton bot et te l'envoie.**
+
+**Tu veux un bot Discord sur mesure ? Crée un ticket et viens me voir si besoin.**
+
+***__Service d'hébergement__ :***
+
+**Je peux héberger ton bot pour qu'il reste en ligne 24h/24. Choisis la formule qui te rend le plus gagnant :**
+
+**- Cloud géré — environnement entièrement pris en charge avec redémarrages automatiques et surveillance  
+- Offre performance — ressources dédiées pour les serveurs à fort trafic et support prioritaire  
+- Déploiement sur mesure — configuration personnalisée sur ton infrastructure avec automatisation du déploiement**
+
+**Chaque formule inclut la surveillance, les mises à jour et une intervention rapide en cas de souci.**
+
+**Note tarifaire : l'hébergement ajoute un léger supplément au devis afin de garantir une disponibilité fiable de ton bot.**
+
